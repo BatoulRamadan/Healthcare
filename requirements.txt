@@ -7,4 +7,4 @@ plotly == 5.9.0
 holoviews == 1.15.4
 streamlit_agraph == 0.0.45
 hydralit_components == 1.0.10
-streamlit_lottie== 0.0.5
+streamlit_lottie == 0.0.5
