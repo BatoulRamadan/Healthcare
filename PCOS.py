@@ -292,12 +292,6 @@ if menu_id == 'Home':
         st.write("Unable to open video file.")
 
     option = st.multiselect('Select a group', ['PCOS', 'Normal'], default=['PCOS', 'Normal'])
-    
-    # # Call the function to plot the age distribution
-    # age_plot = plot_age_distribution(data, option)
-    
-    # # Display the plot using Streamlit
-    # st.pyplot(age_plot)
 
     # Create a container
     age_plot = plot_age_distribution(data, option)
