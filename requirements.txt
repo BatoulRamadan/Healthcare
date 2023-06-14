@@ -4,9 +4,5 @@ Seaborn == 0.12.2
 Streamlit == 1.23.1
 matplotlib == 3.7.0
 plotly == 5.9.0
-holoviews == 1.15.4
 streamlit_agraph == 0.0.45
-hydralit_components == 1.0.10
 streamlit_lottie == 0.0.5
-opencv-python == 4.7.0.72 
-cv2 == 4.7.0
