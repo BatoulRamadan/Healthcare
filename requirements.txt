@@ -1,9 +1,9 @@
-NumPy version: 1.23.5
-Pandas version: 1.5.3
-Seaborn version: 0.12.2
-Streamlit version: 1.23.1
-matplotlib version: 3.7.0
-plotly version: 5.9.0
-holoviews version: 1.15.4
-streamlit_agraph version: 0.0.45
-hydralit_components version: 1.0.10
+NumPy == 1.23.5
+Pandas ==1.5.3
+Seaborn == 0.12.2
+Streamlit == 1.23.1
+matplotlib == 3.7.0
+plotly == 5.9.0
+holoviews == 1.15.4
+streamlit_agraph == 0.0.45
+hydralit_components == 1.0.10
