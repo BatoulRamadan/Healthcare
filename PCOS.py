@@ -280,7 +280,7 @@ if menu_id == 'Effects':
 
 if menu_id == 'Home':
     video_path = 'PCOS.mp4'
-    clip = VideoFileClip(video_path)
+    cap = VideoFileClip(video_path)
 
     if cap.isOpened():
         ret, frame = cap.read()
