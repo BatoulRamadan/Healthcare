@@ -281,7 +281,7 @@ if menu_id == 'Effects':
 if menu_id == 'Home':
     video_path = 'PCOS.mp4'
     cap = VideoFileClip(video_path)
-    st.video(clip)
+    st.video(cap)
     option = st.multiselect('Select a group', ['PCOS', 'Normal'], default=['PCOS', 'Normal'])
 
     # Create a container
