@@ -281,16 +281,7 @@ if menu_id == 'Effects':
 if menu_id == 'Home':
     video_path = 'PCOS.mp4'
     cap = VideoFileClip(video_path)
-
-    if cap.isOpened():
-        ret, frame = cap.read()
-        if ret:
-            st.video(video_path)
-        else:
-            st.write("Unable to read video frame.")
-    else:
-        st.write("Unable to open video file.")
-
+    st.video(clip)
     option = st.multiselect('Select a group', ['PCOS', 'Normal'], default=['PCOS', 'Normal'])
 
     # Create a container
