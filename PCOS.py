@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 import hydralit_components as hc
 from streamlit_lottie import st_lottie
 from plotly.subplots import make_subplots
-import cv2 
+from moviepy.editor import VideoFileClip
 from io import BytesIO
 
 
@@ -280,7 +280,7 @@ if menu_id == 'Effects':
 
 if menu_id == 'Home':
     video_path = 'PCOS.mp4'
-    cap = cv2.VideoCapture(video_path)
+    clip = VideoFileClip(video_path)
 
     if cap.isOpened():
         ret, frame = cap.read()
