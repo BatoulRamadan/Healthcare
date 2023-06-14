@@ -12,6 +12,7 @@ import hydralit_components as hc
 from streamlit_lottie import st_lottie
 from plotly.subplots import make_subplots
 from moviepy.editor import VideoFileClip
+import moviepy.editor as mp
 from io import BytesIO
 
 
