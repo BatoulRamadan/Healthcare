@@ -281,12 +281,7 @@ if menu_id == 'Effects':
 
 if menu_id == 'Home':
     video_path = 'PCOS.mp4'
-    clip = mp.VideoFileClip(video_path)
-
-    if clip.reader.is_opened:
-        st.video(clip)
-    else:
-        st.write("Unable to open video file.")
+    st.video(video_path)
         
     option = st.multiselect('Select a group', ['PCOS', 'Normal'], default=['PCOS', 'Normal'])
 
